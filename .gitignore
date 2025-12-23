@@ -1,0 +1,16 @@
+# Abhängigkeiten
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Produktion
+build/
+dist/
+
+# System
+.DS_Store
+.env
+.vscode/
