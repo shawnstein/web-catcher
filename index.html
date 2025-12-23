@@ -1,17 +1,95 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Catcher</title>
+    <title>Web Catcher - Capture the Moment</title>
+    <!-- Google Fonts: Playfair Display (Serif) & Inter (Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="container">
-        <h1>Web Catcher</h1>
-        <p>Willkommen beim Web Catcher Projekt.</p>
-        <button id="actionBtn">Klick mich</button>
-    </div>
+    <header class="site-header fade-in">
+        <div class="logo">Web Catcher</div>
+        <nav>
+            <ul>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <!-- Premium "CTA" button in nav -->
+                <li><a href="#start" class="btn btn-small">Get Started</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero fade-in">
+            <div class="hero-content">
+                <h1>Design that catches<br>the eye.</h1>
+                <p class="subtitle">Wir kreieren digitale Erlebnisse, die bleiben. Minimalistisch, präzise und
+                    wirkungsvoll.</p>
+                <button id="actionBtn" class="btn btn-primary">Discover More</button>
+            </div>
+            <div class="hero-visual">
+                <!-- Abstract Premium Shape/Image Placeholder -->
+                <div class="visual-circle"></div>
+            </div>
+        </section>
+
+        <!-- Feature Grid (Asymmetrical) -->
+        <section id="work" class="grid-section">
+            <div class="grid-item large fade-in">
+                <div class="content-box">
+                    <h3>Simplicity</h3>
+                    <p>Weniger ist oft mehr. Wir fokussieren uns auf das Wesentliche.</p>
+                </div>
+            </div>
+            <div class="grid-item small fade-in delay-1">
+                <div class="content-box dark">
+                    <h3>Impact</h3>
+                    <p>Starke Kontraste für bleibenden Eindruck.</p>
+                </div>
+            </div>
+            <div class="grid-item medium fade-in delay-2">
+                <div class="content-box">
+                    <h3>Harmony</h3>
+                    <p>Farben und Formen in perfekter Balance.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Text Section -->
+        <section id="about" class="text-section fade-in">
+            <h2>Die Philosophie</h2>
+            <p>Ein Web-Event zu fangen ist wie Fotografie. Es geht um den richtigen Moment, die richtige Komposition und
+                das richtige Licht.</p>
+        </section>
+    </main>
+
+    <footer class="site-footer fade-in">
+        <div class="footer-content">
+            <div class="footer-col">
+                <h4>Web Catcher</h4>
+            </div>
+            <div class="footer-col">
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+            </div>
+            <div class="footer-col" style="text-align: right;">
+                <p>&copy; 2024 Web Catcher Inc.</p>
+            </div>
+        </div>
+    </footer>
+
     <script src="app.js"></script>
 </body>
+
 </html>
